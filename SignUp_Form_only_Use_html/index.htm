@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: #1784D9; background-image: url(./R.jpeg);" >
+    <div>
+    <form dir="ltr" style="background-color: #c9ccce; background-image: url(./Background-Image-in-HTML.jpg);
+     background-size: cover; background-size: 60% 100%;
+     background-repeat: no-repeat; background-position: right;">
+        <fieldset>
+            <legend style="font-family: sans-serif; color:#FF5959; font-style: italic; font-size: large;"><b>SignUp Form</b></legend>
+            <br><br>
+            <label style="font-family: sans-serif; font-size: medium;color: #4C4C4C;"><b>Name :</b></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Enter Your Name Here" required>
+            <br><br>
+            <label style="font-family: sans-serif; font-size: medium;color: #4C4C4C;"><b>Family :</b></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Enter Your Family Here" required>
+            <br><br>
+            <label for="email"><b>Email :</b></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="email" type="email" placeholder="Enter Your Email Address Here" required>
+            <br><br>
+            <label for="password" id="password" style="font-family: sans-serif; font-size: medium;color: #4C4C4C;"><b>Password : </b></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;
+            <input type="password" id="password" placeholder="Enter Your password Here" required>
+            <br><br>
+            <labal for="password" id="repeatPassword" style="font-family: sans-serif; font-size: medium;color: #4C4C4C;"><b>Repeat Password </b></labal>
+            <input type="password" id="repeatPassword" placeholder="Enter repeatPassword Here" required>
+            <br><br>
+            <label id="age" style="font-family: sans-serif; font-size: medium;color: #4C4C4C;"><b>Select Age :</b></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="age" id="age">
+            <option value="age" id="age" style="font-family: sans-serif; font-size: medium;color: #4C4C4C;">Under 18</option>
+            <option value="age" id="age" style="font-family: sans-serif; font-size: medium;color: #4C4C4C;">betWeen 18 to 40</option>
+            <option value="age" id="age" style="font-family: sans-serif; font-size: medium;color: #4C4C4C;">More Than 40</option>
+            </select>
+            <br><br>
+            <label style="font-family: sans-serif; font-size: medium;color: #4C4C4C;"><b>Gender :</b></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Gender" id="Gender">
+            <label  style="font-family: sans-serif; font-size: medium;color: #4C4C4C;">Female</label>
+            <input type="radio" name="Gender" id="Gender">
+            <label  style="font-family: sans-serif; font-size: medium;color: #4C4C4C;">Male</label>
+            <input type="radio" name="Gender" id="Gender">
+            <label  style="font-family: sans-serif; font-size: medium;color: #4C4C4C;">Dont Say</label>
+            <br><br>
+            <label for="file" style="font-family: sans-serif; font-size: medium;color: #4C4C4C;"><b>Upload Profile Pic :</b></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="file" id="file" name="file" style="font-family: sans-serif;color: #1784D9;">
+            <br><br>
+            <label for="file" style="font-family: sans-serif; font-size: medium;color: #4C4C4C;"> Upload Picture progress : </label>
+            <progress id="file" value="0.6" style="color: #10B83F;">60%</progress>
+            <br><br>
+            <legend id="about" style="font-family: sans-serif; font-size: medium;color: #4C4C4C;"><b>Write About You :</b></legend>
+            <textarea name="about" id="about" cols="30" rows="8" ></textarea>
+            </blockquote>    
+            </blockquote>
+            <br><br>
+            <labal for="signUp" style="font-family: sans-serif; font-size: medium;color: #4C4C4C;">Progress Fill Form : </labal>
+            <meter id="signUp" value="0.6" style="color: #10B83F;">60%</meter>
+            <br><br>
+            <button type="submit" style="font-family: sans-serif;color: #1784D9; width: 5rem; height: 2rem;" onclick="alert('SingUp Successfully')" ><b>signUp</b></button>
+            <button type="reset"  style="font-family: sans-serif;color: #FF5959; width: 5rem; height: 2rem;" onclick="confirm('Do You Want Clear Form')"><b>Clear</b></button>
+
+        </fieldset>
+
+    </form>
+</div>
+
+</body>
+
+</html>
